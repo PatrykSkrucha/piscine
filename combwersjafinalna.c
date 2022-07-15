@@ -29,7 +29,7 @@ void	ft_print_comb(void)
 	while(first_digit<'8'){
 		while(second_digit<'9'){
 			while(third_digit<='9'){
-			if(first_digit<second_digit<third_digit){
+			if(first_digit<second_digit&&second_digit<third_digit){
 					print(first_digit,second_digit,third_digit);
 				}
 				third_digit++;
