@@ -10,25 +10,31 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+// #include <stdio.h>
 
-char *ft_strupcase(char *str);
+char	*ft_strupcase(char *str)
 {
 	if (*str == '\0')
 		return (str);
 	while (*str != '\0')
 	{
 		if (*str >= 97 && *str <= 122)
-			*str -= 41;
-			str++;
+			{
+				*str -= 32;
+			}
+		str++;
 	}
 	return (str);
 }
 
-int	main(void)
-{
-	char str[] = "aa";
-	for((int i=0; i<sizeof(str)-1);i++)
-		
-	return (0);
-}
+// int	main(void)
+// {
+// 	char str[] = "aAb";
+// 	for(int i=0; i<(sizeof(str)-1);i++)
+// 		printf("%c", str[i]);
+// 	printf("\n");
+// 	ft_strupcase(str);
+// 	for(int i=0; i<(sizeof(str)-1);i++)
+// 		printf("%c", str[i]);	
+// 	return (0);
+// }
