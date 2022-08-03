@@ -29,31 +29,3 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-
-// int main (void)
-// {
-// 	char str[] = "Hello";
-// 	char dest[] = "World";
-// 	printf("Before str: ");
-// 	for(int i=0; i<(int)sizeof(str); i++)
-// 	{
-// 		printf("%c", str[i]);
-// 	}
-// 	printf(" dest: ");
-// 	for(int i=0; i<(int)sizeof(dest); i++)
-// 	{
-// 		printf("%c", dest[i]);
-// 	}
-// 	ft_strncpy(dest, str, 4);
-// 	printf("\nAfter str: ");
-// 	for(int i=0; i<(int)sizeof(str); i++)
-// 	{
-// 		printf("%c", str[i]);
-// 	}
-// 	printf(" dest: ");
-// 	for(int i=0; i<(int)sizeof(dest); i++)
-// 	{
-// 		printf("%c", dest[i]);
-// 	}
-// 	return (0);
-// }

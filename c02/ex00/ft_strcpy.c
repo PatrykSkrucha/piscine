@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strcpy(char *dest, char *src)
 {
@@ -25,33 +25,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
-// int main (void)
-// {
-// 	char str[] = "Hello";
-// 	int size = sizeof(str);
-// 	size -= 1;
-// 	char dest[size];
-// 	printf("Before str: ");
-// 	for(int i=0; i<size; i++)
-// 	{
-// 		printf("%c", str[i]);
-// 	}
-// 	printf(" dest: ");
-// 	for(int i=0; i<size; i++)
-// 	{
-// 		printf("%c", dest[i]);
-// 	}
-// 	ft_strcpy(dest, str);
-// 	printf("After str: ");
-// 	for(int i=0; i<size; i++)
-// 	{
-// 		printf("%c", str[i]);
-// 	}
-// 	printf(" dest: ");
-// 	for(int i=0; i<size; i++)
-// 	{
-// 		printf("%c", dest[i]);
-// 	}
-// 	return (0);
-// }
